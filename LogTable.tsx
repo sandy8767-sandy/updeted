@@ -8,6 +8,9 @@ interface LogTableProps {
 export const LogTable = () => {
   // ... component code
 }
+export default function LogTable() {
+  // ... component code
+}
 const levelIcons = {
   error: <AlertCircle className="w-5 h-5 text-red-500" />,
   warn: <AlertTriangle className="w-5 h-5 text-yellow-500" />,
