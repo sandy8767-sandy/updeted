@@ -5,7 +5,9 @@ import { AlertCircle, Info, AlertTriangle, Bug } from 'lucide-react';
 interface LogTableProps {
   logs: LogEntry[];
 }
-
+export const LogTable = () => {
+  // ... component code
+}
 const levelIcons = {
   error: <AlertCircle className="w-5 h-5 text-red-500" />,
   warn: <AlertTriangle className="w-5 h-5 text-yellow-500" />,
