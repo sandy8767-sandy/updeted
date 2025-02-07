@@ -18,7 +18,7 @@ import { Feedback } from './components/Feedback';
 import { LiveMonitor } from './components/LiveMonitor';
 import { LogEntry, FilterOptions, LogStats, UserSettings, UserProfile, UserActivity } from './types';
 import { parseLogFile } from './utils/logParser';
-
+import { LogTable } from './components/LogTable';
 function App() {
   const [logs, setLogs] = useState<LogEntry[]>([]);
   const [filters, setFilters] = useState<FilterOptions>({});
